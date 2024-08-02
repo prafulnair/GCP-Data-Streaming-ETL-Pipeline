@@ -1,0 +1,30 @@
+{
+  "bigquery": {
+    "project_id": "unique-perigee-371022",
+    "datasets": {
+      "dataset_1": "a_dataset",
+      "dataset_2": "b_dataset"
+    },
+    "tables": {
+      "table_1": "my_table",
+      "table_2": "correct_csv",
+      "table_3": "correct_csv_copy"
+    }
+  },
+  "gcs": {
+    "bucket_name": "test-functionn",
+    "files": {
+      "books_data": "books_data.csv",
+      "books_rating": "Books_rating.csv"
+    },
+    "wordcloud_output": "logs/20190116-195604/wordcloud"
+  },
+  "titles": [
+    "Finnegans Wake",
+    "Hotel World",
+    "Wartime Lies",
+    "The Well of Loneliness",
+    "Shirley",
+    "Mauritius Command"
+  ]
+}
