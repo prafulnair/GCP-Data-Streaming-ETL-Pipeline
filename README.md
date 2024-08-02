@@ -4,6 +4,10 @@
 ## Overview
 This project involves designing a data streaming pipeline using Google Cloud Functions. The aim is to stream all the data present in the files of our dataset as soon as they are uploaded to Google Cloud Storage to the appropriate tables in BigQuery.
 
+#### Link to Report 
+[Analysis Report](Analysis/Analysis.md)
+
+
 ## Components
 The system consists of three components of GCP:
 1. **Google Cloud Functions**: The primary focus of this project.
