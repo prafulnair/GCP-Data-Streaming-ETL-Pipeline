@@ -56,7 +56,6 @@ def connection_bg(request):
     # Display the generated image:
         plt.imshow(wordcloud, interpolation='bilinear')
         plt.axis("off")
-        # plt.savefig('/Users/mariumali/Desktop/wordcloug.png')
 
         fig_to_upload = plt.gcf()
 
